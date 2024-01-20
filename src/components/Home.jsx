@@ -2,19 +2,40 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <img src="bg.jpg" className="w-full h-[42rem] bg-no-repeat" alt="" />
-      <div className="bg-slate-400 w-full absolute  h-[40rem] ">
-        <div className="mt-5 flex space-x-12 ml-14 ">
-          <div className="w-40 h-40 bg-green-200 px-9 py-16 hover:w-96 delay-500">
+      <img
+        src="bg.jpg"
+        className="w-full h-[42rem] bg-no-repeat fixed"
+        alt=""
+      />
+      <div className=" w-full absolute  h-screen mt-[40rem]">
+        <h1 className="bg-white text-center mr-32 ml-32 mt-32 p-12 font-serif text-xl">
+          <b style={{ fontSize: 50 }} className="font-sans ">
+            Bucketlist Experiences
+          </b>
+          <br />
+          <br />
+          A Goal without a Plan is a Wish. Stop dreaming about your BucketList
+          and start living it. <br />
+          <br />
+          At BucketList we curate memorable and unique experiences for all
+          travel and lifestyle needs for Individuals and Corporates. We don’t
+          just tick off your BucketList, we help you create one too! So have you
+          figured your list yet ? Either way you have landed at the right page!{" "}
+          <br />
+          <br />
+          <h1 className="font-mono">Let‘s get those boxes ticked…</h1>
+        </h1>
+        <div className="mt-5 grid grid-cols-4 ">
+          <div className=" h-96 bg-green-200  hover:h-[30rem] delay-500">
             {/* <Link to="/Adventure">Adventure</Link> */}
           </div>
-          <div className="w-40 h-40 bg-black text-white px-14 py-16 hover:w-96 ">
+          <div className=" h-96 bg-black text-white  hover:w-96 ">
             {/* <Link to="/Travel">Travel</Link> */}
           </div>
-          <div className="w-40 h-40 bg-black text-white px-11 py-16 hover:w-96 ">
+          <div className="h-96 bg-green-200 text-white  hover:w-96 ">
             {/* <Link to="/Imaginory">Imaginory</Link> */}
           </div>
-          <div className="w-40 h-40 bg-black text-white px-14 py-16 hover:w-96 ">
+          <div className=" h-96 bg-black text-white hover:w-96 ">
             {/* <Link to="/social_Things">Social Things</Link> */}
           </div>
         </div>
@@ -32,7 +53,7 @@ const Home = () => {
             Don't Just tick your BucketList, experience it
           </div>
         </div>
-        <div className="flex py-4 px-4">
+        <div className="flex">
           <div className=" w-full p-4">
             <div className="h-20 m-2  bg-red-900">h</div>
             <div className="h-10 m-2 bg-green-300">h</div>
@@ -51,4 +72,4 @@ const Home = () => {
   );
 };
 
-export default Home
+export default Home;

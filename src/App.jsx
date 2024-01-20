@@ -1,6 +1,6 @@
 
 import Navbar from "./components/Navbar";
-
+import Createlist from "./components/createlist";
 import React from "react";
 import Fotter from "./components/Fotter";
 import ReactDOM from "react-dom";
@@ -10,14 +10,10 @@ import Sign_in from "./components/sign in";
 function App() {
   return (
     <div >
-      <Navbar />
+      <Navbar/>
       <Home/>
-      {/* <Sign_in/>/ */}
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sign_in" element={<Sign_in />} />
-      </Routes> */}
-      <Fotter />
+      <Fotter/>
+      {/* <Createlist/> */}
     </div>
   );
 }

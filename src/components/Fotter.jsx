@@ -6,7 +6,7 @@ import { BiLogoLinkedin } from "react-icons/bi";
 
 const Fotter = () => {
   return (
-    <div className="bg-black absolute mt-[43rem] px-40 pt-12 h-96 text-white">
+    <div className="bg-black absolute mt-[140rem] px-40 pt-12 h-96 text-white">
       <p>Phone:</p>
       <p>9876543221</p>
 

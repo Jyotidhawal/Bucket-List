@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-black w-full">
-        <div className="bg-black pl-[53rem] h-12 fixed py-3 w-full space-x-5 text-white z-10">
+        <div className=" bg-black pl-[53rem] h-12 fixed py-3 w-full space-x-5 text-white z-10">
           <a href="/about_us">Home</a>
           <select name="Idea" id="idea" className="bg-black">
             <option value="Bucket List">Bucket List</option>
